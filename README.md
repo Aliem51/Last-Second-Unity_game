@@ -1,58 +1,68 @@
 # LAST SECOND
 
-**A 2D Arcade Survival Prototype | Unity 6**
+**A 2D Arcade Survival Game Prototype · Unity 6 · C#**
 
-Last Second is a fast-paced 2D arcade survival game built around a simple challenge: switch between three lanes, dodge incoming obstacles, and survive as long as possible.
+Last Second is a fast-paced arcade survival game where players switch between three lanes to dodge incoming obstacles, survive for as long as possible, and beat their personal best.
 
-The game focuses on quick decisions, readable hazards, and increasing difficulty over time.
+The project explores a simple but engaging gameplay loop built around quick decisions, obstacle patterns, and progressive difficulty.
 
-## Gameplay
+## Gameplay Demo
 
-**Core loop:** Observe → Decide → Switch lanes → Survive → Beat your high score.
+[▶ Watch the gameplay video](https://drive.google.com/file/d/1p9fB7mP5t0p3sD54bvvjroyni6mId68k/view?usp=sharing)
 
-- **Three-lane movement** — move between lanes to avoid incoming obstacles.
-- **Random obstacle patterns** — react to single and double obstacle formations.
-- **Progressive difficulty** — obstacle speed and challenge increase as the score grows.
-- **Score and high score** — earn points by passing obstacles and try to beat your personal record.
-- **Complete game flow** — start screen, gameplay, Game Over, retry, and return to the home screen.
-- **Audio feedback** — sound effects for scoring, collisions, and restarting.
+## Core Gameplay
 
-## Gameplay Video
+**Observe → Decide → Move → Survive → Beat Your Best**
 
-[Watch the gameplay demo](https://drive.google.com/file/d/1p9fB7mP5t0p3sD54bvvjroyni6mId68k/view?usp=sharing)
+- **Three-lane movement** — switch lanes to avoid incoming obstacles.
+- **Obstacle patterns** — react to single and double obstacle formations.
+- **Progressive difficulty** — obstacle speed and the chance of double obstacles increase as the score grows.
+- **Score system** — earn points by passing obstacles and aim for a new high score.
+- **Complete gameplay flow** — start screen, active gameplay, Game Over, retry, and return to the home screen.
+- **Audio feedback** — sound effects reinforce scoring, collisions, and restarting.
 
-## Design Focus
+## Game Design
 
-The main design challenge is balancing reaction time and difficulty progression.
+The central design challenge is creating tension without making the game feel unfair.
 
-The player must understand obstacle patterns quickly and choose a safe lane under increasing pressure. The three-lane system keeps the controls simple while obstacle combinations create moment-to-moment decisions.
+The three-lane system keeps the controls simple, while changing obstacle patterns require players to make quick decisions. As the score increases, the game introduces greater pressure through faster obstacles and more frequent double-obstacle formations.
+
+The goal is to make each run easy to understand but increasingly challenging to master.
 
 ## My Contribution
 
-I developed the playable prototype and worked on its core gameplay systems, including:
+I developed the playable prototype and worked on the implementation and iteration of its core gameplay systems:
 
 - Player movement and collision handling.
-- Obstacle spawning and movement.
+- Obstacle spawning, movement, and formation logic.
 - Difficulty progression and scoring.
 - Game state management and UI flow.
 - Audio feedback and persistent high scores.
 - Playtesting and evaluating the gameplay experience.
 
-AI-assisted development tools were used during implementation. I made gameplay and presentation decisions and tested the resulting prototype in Unity.
+AI-assisted development tools were used during implementation. I tested the prototype in Unity and made decisions about its gameplay structure, presentation, and overall experience.
 
-## Built With
+## Playtesting & Key Takeaway
 
-- **Engine:** Unity 6 (6000.6.0f1)
-- **Language:** C#
-- **Tools:** Unity Editor, AI-assisted development tools
+During playtesting, I evaluated how obstacle speed, obstacle combinations, and the time required to switch lanes affected the difficulty.
 
-## What I Learned
+The tests showed that reaction time becomes a major factor as the score increases. This highlighted an important balancing consideration: difficulty should challenge players while still giving them enough time to recognize a threat and respond.
 
-This project gave me practical experience building a playable prototype from the core gameplay loop to the complete start–play–game-over flow.
+**Key takeaway:** Good difficulty progression is not just about making a game faster. It is about balancing pressure, readability, and player response time.
 
-It also helped me evaluate how obstacle frequency, movement speed, and reaction time affect the player's experience.
+## Tools & Technology
+
+- **Game Engine:** Unity 6 (6000.6.0f1)
+- **Programming Language:** C#
+- **Development Tools:** Unity Editor, AI-assisted development tools
 
 ## Project Status
 
-Playable prototype. The core gameplay loop and main UI flow are implemented.
+**Playable prototype.**
+
+The core gameplay loop, scoring, difficulty progression, audio feedback, and main UI flow are implemented.
+
+## Repository
+
+The Unity project source files are available in this repository.
 
