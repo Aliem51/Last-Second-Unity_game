@@ -19,7 +19,7 @@ The game focuses on quick decisions, readable hazards, and increasing difficulty
 
 ## Gameplay Video
 
-[Watch the gameplay demo]([PASTE_YOUR_GOOGLE_DRIVE_VIDEO_LINK_HER](https://drive.google.com/file/d/1p9fB7mP5t0p3sD54bvvjroyni6mId68k/view?usp=sharing))
+[Watch the gameplay demo]([https://drive.google.com/file/d/1p9fB7mP5t0p3sD54bvvjroyni6mId68k/view?usp=sharing])
 
 ## Design Focus
 
